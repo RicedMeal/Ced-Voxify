@@ -21,11 +21,10 @@ body {
     font-family: "Open Sans", cursive;
     height: 100vh;
     background-image: linear-gradient(
-        #dce0d9,
-        #fbf6ef,
-        #ead7c3
+        #9381ff,
+        #b8b8ff,
+        #f8f7ff
         );
-    background-size: 50px 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,7 +38,7 @@ body {
 }
 
 h1 {
-    color: #9381ff;
+    color: #000000;
     background: #b8b8ff;
     border-bottom: 5px solid #f8f7ff;
     border-radius: 10px 10px 0 0;   
