@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Voxify</title>
+        <link rel="icon" href="https://icons.veryicon.com/png/o/miscellaneous/cbxt/speech-synthesis.png"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+        <link rel = "stylesheet" href="styles/style.css">
+    </head>
+
+    <body>
+        <div id = "container">
+            <h1>Cedric's TTS</h1>
+            <select id = "voices">
+
+            </select>
+            <label>rate:</label>
+            <input type="range" id="rate" value="4" min = "0" max = "10" step="0.5"/>
+            <label>pitch:</label>
+            <input type="range" id="pitch" value="4" min = "0" max = "10" step="0.5"/>
+            <textarea id = "textarea"> Welcome to Crack the Code!</textarea>
+            <div id = "buttons">
+                <button id = "stop-button">Stop</button>
+                <button id = "speak-button">Play</button>
+            </div>
+        </div>
+        <script src = "scripts/script.js"></script>
+    </body> 
+
+</html>
