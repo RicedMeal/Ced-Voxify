@@ -64,12 +64,13 @@ textarea {
 }
 
 #buttons button {
-    color: #b8b8ff;
-    background: #f8f7ff;
+    color: #000000;
+    background: #b8b8ff;
     border: 0;
     width: 50%;
     font-size: 20px;
-    border-bottom: 5px solid #9381ff;
+    border-bottom: 5px solid #b8b8ff;
+    border-radius: 10px 10px 10px 10px;
     cursor: pointer;
     padding: 10px;
     margin: 0 10px;
